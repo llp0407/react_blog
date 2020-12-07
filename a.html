@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./prettyLog.js">
+        prettyLog.performance()
+    </script>
+</head>
+
+<body>
+    <div>
+        aaaaaaaa
+    </div>
+    <script>
+        
+
+        // let a = [6,5,4]
+        // Array.prototype.myPush = function () {
+        //     this.length++
+        //     for (var i = 0; i < arguments.length; i++) {
+        //         this[this.length-1] = arguments[i]
+        //     }
+        //     return this.length;
+        // }
+        // a.myPush(6)
+        // console.log(a)
+
+
+        // var obj = {
+        //     2: 3,
+        //     3: 4,
+        //     length: 4,
+        //     push: Array.prototype.myPush,
+        // };
+        // obj.push(1);
+        // obj.push(2);
+        // console.log(obj);
+
+        // 2: 3
+        // 3: 4
+        // 4: 1
+        // 5: 2
+        // length: 6
+
+        // 2: 3
+        // 3: 4
+        // 4: 2
+        // length: 4
+
+        let url = "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20201127/audio/92c1e367-02f0-4929-b6cb-b91b231d5b03.mp3"
+        
+        console.log(url.split('.com/'))
+
+        let obj = {
+            '2020-10-30':30,
+            '2020-10-29':29,
+            '2020-10-28':28,
+            '2020-10-26':26,
+            '2020-10-27':27,
+        }
+        console.log(Object.keys(obj))
+        // let arr = Object.keys(obj).map(item=>{
+        //     // console.log(new Date(item))
+        //     return new Date(item)
+        // })
+        console.log( Object.keys(obj).sort((a,b)=>{
+            return new Date(a) - new Date(b)
+        }) )
+        // let arr2 = arr.map(item=>{
+        //     return new Date(item)
+        // })
+        // console.log(arr2)
+    </script>
+</body>
+
+</html>
