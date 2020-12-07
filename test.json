@@ -1,0 +1,242 @@
+{
+    "errmsg": {
+        "errMsg": "operateRecorder:fail is recording or paused"
+    },
+    "pageData": {
+        "reportData": [],
+        "book_id": "",
+        "isTest": false,
+        "boxHeight": 670,
+        "voiceStatus": 0,
+        "selfsrc": "wxfile://tmp_8f1cfe65c401b7522ed0d6f9158bedab.mp3",
+        "clickRecord": false,
+        "curIndex": 0,
+        "score": 74,
+        "showScoreBox": false,
+        "item_img_WH": {
+            "width": 294.85714285714283,
+            "height": 384
+        },
+        "statusBarHeight": 18.51851851851852,
+        "navHeight": 37.03703703703704,
+        "in_task_mode": false,
+        "step_progress": [
+            100,
+            100,
+            0
+        ],
+        "show_task_completes": false,
+        "show_all_task_completes": false,
+        "task_count": 0,
+        "perfect_img": "https://xiaotong-abc.com:5091/img/perfect.png",
+        "img_box_WH": {
+            "width": 384,
+            "height": 384
+        },
+        "originalWidth": 645,
+        "originalHeight": 840,
+        "request_max_num": 2,
+        "img_num": 1,
+        "baby": {
+            "member_id": 90,
+            "kid_id": 90,
+            "family_id": "20200612788975",
+            "name": "Emma",
+            "gender": "女",
+            "age": "2014-01",
+            "clothes": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_clothes190318_5.png",
+            "hair": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_hair190318_4.png",
+            "head": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_face190318_1.png",
+            "shoe": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_shoe190318.png",
+            "trousers": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_trousers190318_5.png",
+            "wing": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_wing200207_2.png"
+        },
+        "starNum": 310,
+        "star_ani": false,
+        "textMode": 0,
+        "evalMode": 1,
+        "show_message_list": true,
+        "message_list": [
+            {
+                "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+                "kid_id": 90,
+                "room": "20200717001287",
+                "voiceEncode": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20200717/audio/557d3bca-3bfd-4446-86dd-fdb95a108325.mp3",
+                "score": 91,
+                "date": "20:44",
+                "audio_type": "followUp",
+                "type": "student",
+                "name": "Emma"
+            },
+            {
+                "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+                "kid_id": 90,
+                "room": "20200717001287",
+                "voiceEncode": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20200717/audio/a02b79f6-ed83-4105-a62d-f30d8cf56950.mp3",
+                "score": 88,
+                "date": "20:44",
+                "audio_type": "followUp",
+                "type": "student",
+                "name": "Emma"
+            },
+            {
+                "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+                "kid_id": 90,
+                "room": "20200717001287",
+                "voiceEncode": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20200717/audio/882d9881-c971-4846-bf1e-1c9799dfbc43.mp3",
+                "score": 84,
+                "date": "20:45",
+                "audio_type": "followUp",
+                "type": "student",
+                "name": "Emma"
+            },
+            {
+                "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+                "kid_id": 90,
+                "room": "20200717001287",
+                "voiceEncode": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20200717/audio/eda2923f-0319-41b8-a938-5bd3027fdfda.mp3",
+                "score": 83,
+                "date": "20:45",
+                "audio_type": "followUp",
+                "type": "student",
+                "name": "Emma"
+            },
+            {
+                "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+                "kid_id": 90,
+                "room": "20200717001287",
+                "voiceEncode": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20200717/audio/9a7c6a8a-83ba-4b33-8f29-83fb956a225c.mp3",
+                "score": 74,
+                "date": "20:45",
+                "audio_type": "followUp",
+                "type": "student",
+                "name": "Emma"
+            },
+            {
+                "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+                "kid_id": 90,
+                "room": "20200717001287",
+                "voiceEncode": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/1255589169/default/20200717/audio/2020071720453152507.mp3",
+                "score": 0,
+                "date": "20:45",
+                "audio_type": "talk",
+                "type": "student",
+                "name": "Emma"
+            }
+        ],
+        "currentState": "FREE",
+        "needDealtQueue": [],
+        "player": {
+            "kid_id": 90,
+            "family_id": "20200612788975",
+            "name": "Emma",
+            "gender": "女",
+            "age": "2014-01-01",
+            "stars": 304,
+            "openid": "oeBaf4vUB97kcPsGGjairqfRwF-8",
+            "type": "member",
+            "start_count": 304,
+            "clothes": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_clothes190318_5.png",
+            "hair": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_hair190318_4.png",
+            "head": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_face190318_1.png",
+            "shoe": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_shoe190318.png",
+            "trousers": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_trousers190318_5.png",
+            "wing": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/girl_wing200207_2.png"
+        },
+        "otherPlayer": [
+            {
+                "kid_id": 165,
+                "family_id": "20200714172081",
+                "name": "Jack",
+                "gender": "男",
+                "age": "2004-07-01",
+                "stars": 11,
+                "openid": "oeBaf4iidwEpEVYsLCWBM1VfovL0",
+                "type": "master",
+                "start_count": 11,
+                "clothes": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/clothes191125.png",
+                "hair": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/boy_hair190318_1.png",
+                "head": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/boy_face190318_1.png",
+                "shoe": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/boy_shoe190318.png",
+                "trousers": "https://xiaotong-abc-1255589169.cos.ap-guangzhou.myqcloud.com/figure/trousers191125.png"
+            }
+        ],
+        "playingIdx": 99,
+        "audio_type": "FREE",
+        "list": [
+            {
+                "page_num": "1",
+                "pic_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_img/K/0GK_U7_RDR_web_page15.jpg",
+                "title": "Seth's Mom",
+                "page_max": 5,
+                "audio_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_audio/K/U7/Thisis_9_.mp3",
+                "text": "This is Pat.",
+                "text_num": 1,
+                "id": 65,
+                "oral_score": 74,
+                "voice": "wxfile://tmp_8f1cfe65c401b7522ed0d6f9158bedab.mp3"
+            },
+            {
+                "page_num": "1",
+                "pic_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_img/K/0GK_U7_RDR_web_page15.jpg",
+                "title": "Seth's Mom",
+                "page_max": 5,
+                "audio_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_audio/K/U7/Thisis_10_.mp3",
+                "text": "Pat is Seth's mom.",
+                "text_num": 2,
+                "id": 66,
+                "oral_score": 0,
+                "voice": ""
+            },
+            {
+                "page_num": "2",
+                "pic_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_img/K/0GK_U7_RDR_web_page17.jpg",
+                "title": "Seth's Mom",
+                "page_max": 5,
+                "audio_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_audio/K/U7/Thisis_11_.mp3",
+                "text": "Pat can fix things.",
+                "text_num": 1,
+                "id": 67,
+                "oral_score": 0,
+                "voice": ""
+            },
+            {
+                "page_num": "3",
+                "pic_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_img/K/0GK_U7_RDR_web_page19.jpg",
+                "title": "Seth's Mom",
+                "page_max": 5,
+                "audio_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_audio/K/U7/Thisis_12_.mp3",
+                "text": "Pat can scrub, plan, and think.",
+                "text_num": 1,
+                "id": 68,
+                "oral_score": 0,
+                "voice": ""
+            },
+            {
+                "page_num": "4",
+                "pic_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_img/K/0GK_U7_RDR_web_page21.jpg",
+                "title": "Seth's Mom",
+                "page_max": 5,
+                "audio_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_audio/K/U7/Thisis_13_.mp3",
+                "text": "Pat can run fast.",
+                "text_num": 1,
+                "id": 69,
+                "oral_score": 0,
+                "voice": ""
+            },
+            {
+                "page_num": "5",
+                "pic_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_img/K/0GK_U7_RDR_web_page23.jpg",
+                "title": "Seth's Mom",
+                "page_max": 5,
+                "audio_url": "https://vocab-audio-student-gz-1255589169.cos.ap-guangzhou.myqcloud.com/picbook_audio/K/U7/Thisis_14_.mp3",
+                "text": "Pat can sing songs.",
+                "text_num": 1,
+                "id": 70,
+                "oral_score": 0,
+                "voice": ""
+            }
+        ],
+        "star_ani2": false
+    }
+}

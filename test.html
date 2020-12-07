@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="http://www.baidu.com">a</a>
+    <script>
+        function typeTest(value){
+            console.log(Object.prototype.toString.call(value))
+            return typeof(value)
+        }
+        let arr = [1,'1',/a/g,new Date(),()=>{},[],{}]
+        arr.forEach((item)=>{
+            typeTest(item)
+        })
+
+        // function copy(obj){
+        //     let newObj = null
+        //     if(typeof(obj) != 'object'){
+        //         newObj = obj 
+        //     }
+        //     if(Object.prototype.toString.call(obj) == '[object Array]'){
+        //         newObj = []
+        //         for(let i=0;i<obj.length;i++){
+        //             newObj.push(copy(obj[i]))
+        //         }
+        //     }
+        //     if(Object.prototype.toString.call(obj) == '[object Object]'){
+        //         newObj = {}
+        //         for(let i in obj){
+        //             console.log(i)
+        //             newObj[`${i}`] = copy(obj[i])
+        //         }
+        //     }
+        //     return newObj
+        // }
+        function copy(obj){
+            let newVal = null
+            if(typeof(obj) == 'object' && obj !== null){
+                newVal = obj instanceof Array ? []:{}
+                for(i in obj){
+                    newVal[i] = copy(obj[i])
+                }
+            }else{
+                newVal = obj
+            }
+            return newVal
+        }
+        let o = [1,2,3,'222',{
+            a:22
+        }]
+        let newValue = copy(o)
+        newValue[1] = 555
+        newValue[4].a = 555
+        console.log(o)
+        console.log(newValue)
+
+
+        const fc = async ()=>{
+            let a = await fc2()
+            console.log(a)
+            console.log(1111)
+        }
+        const fc2 = ()=>{
+            console.log(2222)
+            return new Promise((resolve,reject)=>{
+                resolve(666)
+            })
+        }
+        fc()
+    </script>
+</body>
+
+</html>
