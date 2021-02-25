@@ -1,6 +1,6 @@
 
-// let ipUrl = 'http://127.0.0.1:7001/default/'
-let ipUrl = 'http://119.29.102.75:7001/default/'
+let ipUrl = 'http://127.0.0.1:7001/default/'
+// let ipUrl = 'http://1.15.122.234:7001/default/'
 // let ipUrl = 'http://118.25.12.124:7001/default/'
 
 let servicePath = {

@@ -19,7 +19,7 @@ const MyList = (list) => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>{list.url.query.id==1&&'面试题目'||list.url.query.id==2&&'快乐生活'}</title>
       </Head>
 
       <Header></Header>
@@ -33,7 +33,7 @@ const MyList = (list) => {
                 <a href='/'>首页</a>
               </Breadcrumb.Item>
               <Breadcrumb.Item>
-                {list.url.query.id==1&&'视频教程'||list.url.query.id==2&&'生活'}
+                {list.url.query.id==1&&'面试题目'||list.url.query.id==2&&'快乐生活'}
               </Breadcrumb.Item>
             </Breadcrumb>
           </div>

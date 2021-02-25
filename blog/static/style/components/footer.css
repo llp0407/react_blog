@@ -8,6 +8,7 @@
     width: 14px;
     height: 14px;
     background: url(/blog/static/img/20190410102033956.png) no-repeat;
+    /* background: url(../../img/20190410102033956.png) no-repeat; */
     background-size: cover;
     display: inline-block;
     margin-right: 2px;

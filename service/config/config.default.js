@@ -28,16 +28,16 @@ module.exports = appInfo => {
     // database configuration
     client: {
       // host
-      // host: '127.0.0.1',
-      host:'cdb-73goqjuo.bj.tencentcdb.com',
+      host: '127.0.0.1',
+      // host:'cdb-73goqjuo.bj.tencentcdb.com',
       // port
-      // port: '3306',
-      port: '10094',
+      port: '3306',
+      // port: '10094',
       // username
       user: 'root',
       // password
-      // password: '123258',
-      password:'xtabc!1815',
+      password: '123258',
+      // password:'xtabc!1815',
       // database
       database: 'react_blog',    
     },

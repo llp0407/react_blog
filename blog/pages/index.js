@@ -18,7 +18,8 @@ const Home = (list) => {
   return (
     <div>
       <Head>
-        <title>llp个人博客</title>
+        {/* <title>道阻且长，行则将至</title> */}
+        <title>LLp</title>
         <link rel="shortcut icon" href="../static/favicon.ico" />
       </Head>
 

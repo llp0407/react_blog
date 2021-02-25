@@ -10,6 +10,7 @@ const Author = ()=>{
             </div>
             <div className="author-introduction">
                 简介
+                <div>道阻且长，行则将至</div>
                 <Divider>社交账号</Divider>
                 <GithubOutlined style={{ fontSize: '28px' }} className="account"/>
                 <QqOutlined style={{ fontSize: '28px' }} className="account"/>
